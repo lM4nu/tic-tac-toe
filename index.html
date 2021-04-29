@@ -6,62 +6,36 @@
     </head>
 
     <body>
-        <div class="main">
+        <div class="menu">
             <h1 class="mainTitle"> Tic Tac Toe</h1>
-           <div class="buttons">
+           <div id = "menu-btns" class="buttons">
              <input class="menu-btn" type="button" value="Play vs AI" id="AI">
-             <input class="menu-btn" type="button" value="Play vs Player" id="2P">
+             <input class="menu-btn" type="button" value="Play vs Player" id="twoPlayers">
             </div>
+            <h1 class="hidden winner-msg"> </h1>
+            <div id="reset-btn-cont" class="hidden buttons">
+                <input id="reset-btn" class="menu-btn" type="button" value = "Reset">
+            </div>
+        </div>
 
-            <div class="boardCont">
-                <div class="board">
-            
-                       <div class="box" id="box-0">
-
-		            </div>
-
-                      <div class="box" id="box-1">
-
-		            </div>
-
-                      <div class="box" id="box-2">
-
-		            </div>
-
-                      <div class="box" id="box-3">
-
-		            </div>
-
-                      <div class="box" id="box-4">
-
-		            </div>
-
-                      <div class="box" id="box-5">
-
-		            </div>
-
-                      <div class="box" id="box-6">
-
-		            </div>
-
-                      <div class="box" id="box-7">
-
-		            </div>
-
-                      <div class="box" id="box-8">
-
-		            </div>
-
+            <div class="boardCont hidden">
+                 <div class="board">
+                    <div class="box" id="box-0">  </div> 
+                    <div class="box" id="box-1">  </div> 
+                    <div class="box" id="box-2">  </div> 
+                    <div class="box" id="box-3">  </div> 
+                    <div class="box" id="box-4">  </div> 
+                    <div class="box" id="box-5">  </div> 
+                    <div class="box" id="box-6">  </div> 
+                    <div class="box" id="box-7">  </div> 
+                    <div class="box" id="box-8">  </div> 
 
                 </div>
            </div>
-
-           <div class="hidden boxx">
-
-           </div>
+         
 
 
-        </div>
+
 
         <script src="script.js"></script>
     </body>
